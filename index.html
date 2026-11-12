@@ -19,3 +19,27 @@
       <button type="button">Entrar no Sistema</button>
     </section>
   </main> 
+  <!-- Tela 2: Registro de Entrega e Histórico -->
+    <section id="tela-app">
+      <div class="card">
+        <h2>Nova Entrega</h2>
+        <p id="saudacao"></p>
+        
+        <label for="cliente">Cliente / Endereço:</label>
+        <input type="text" id="cliente" placeholder="Ex: Rua das Flores, 120">
+
+        <label for="entregues">Galões Entregues (Cheios):</label>
+        <input type="number" id="entregues" value="1" min="0">
+
+        <label for="devolvidos">Cascos Recolhidos (Vazios):</label>
+        <input type="number" id="devolvidos" value="1" min="0">
+
+        <button type="button" onclick="registrarEntrega()">Confirmar Entrega</button>
+        <p id="alerta-feedback" role="alert" aria-live="polite"></p>
+      </div>
+
+      <div class="card">
+        <h2>Entregas de Hoje</h2>
+        <ul id="lista-entregas"></ul>
+      </div>
+    </section>
