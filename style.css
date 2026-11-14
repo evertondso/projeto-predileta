@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    padding: 16px;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #0056b3;
+    font-size: 24px;
+}
+
+header p {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Telas (Alternância de visibilidade) */
+.hidden {
+    display: none !important;
+}
+
+/* Cards e Seções */
+.card {
+    background: #ffffff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 16px;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #222;
+}
+
+/* Formulários e Inputs */
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    color: #444;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003d82;
+}
+
+/* Lista de entregas */
+ul {
+    list-style: none;
+}
+
+ul li {
+    background: #f9f9f9;
+    padding: 10px;
+    border-left: 4px solid #0056b3;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#alerta-feedback {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #d9534f;
+    text-align: center;
+}
