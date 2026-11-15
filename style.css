@@ -12,6 +12,16 @@ body {
     max-width: 480px;
     margin: 0 auto;
 }
+body.alto-contraste {
+  background-color: #000000 !important;
+  color: #ffff00 !important;
+}
+body.alto-contraste input, 
+body.alto-contraste button:not([onclick]) {
+  background-color: #000000 !important;
+  color: #ffff00 !important;
+  border: 2px solid #ffff00 !important;
+}
 
 header {
     text-align: center;
